@@ -12,8 +12,6 @@ int main() {
 
     if (B > C && D > A && C + D > A + B ){
 
-
-
         printf ("valores aceitos");
     }
 
