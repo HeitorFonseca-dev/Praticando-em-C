@@ -4,28 +4,28 @@
 
 int main (){
 
-float a,b,c,x,y,z;
+float valor_de_a,valor_de_b,valor_de_c,valor_de_delta,x_linha,xx_linha;
 
-scanf ("%f",&a);
-scanf ("%f",&b);
-scanf ("%f",&c);
+scanf ("%f",&valor_de_a);
+scanf ("%f",&valor_de_b);
+scanf ("%f",&valor_de_c;
 
-x = (b*b) - (4*a*c);
+valor_de_delta = (valor_de_b*valor_de_b) - (4*valor_de_a*valor_de_c);
 
-if (x<0){
+if (valor_de_delta<0){
     printf ("impossivel calcular\n");
 }
 
-else if(a == 0)
+else if(valor_de_a == 0)
     printf ("impossivel calcular");
 
 
 
 else {
-    y = (-b + sqrt(x)) / (a + a);
-    z = (-b - sqrt(x)) / (a + a);
-    printf ("R1 = %.5f\n", y);
-    printf ("R2 = %.5f\n", z);
+    x_linha = (-b + sqrt(x)) / (a + a);
+    xx_linha = (-b - sqrt(x)) / (a + a);
+    printf ("R1 = %.5f\n", x_linha);
+    printf ("R2 = %.5f\n", xx_linha);
 }
 
 
