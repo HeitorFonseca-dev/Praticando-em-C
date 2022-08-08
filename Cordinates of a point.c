@@ -16,12 +16,12 @@ else if ( eixo_x != 0.0 && eixo_y == 0.0)
     printf ("Eixo X");
 
 else if (eixo_x > 0 && eixo_y > 0)
-    printf ("Q1");
+    printf ("Quadrante 1");
 else if (eixo_x > 0 && eixo_y < 0 )
-    printf ("Q4");
+    printf ("Quadrante 4");
 else if ( eixo_x < 0 && eixo_y > 0)
-    printf ("Q2");
+    printf ("Quadrante 2");
 else {
-    printf ("Q3");
+    printf ("Quadrante 3");
 }
 }
