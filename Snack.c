@@ -39,7 +39,7 @@ else {
     if (nota_recuperacao > 5){
          printf ("Aluno aprovado.\n");
          printf ("Media final: %.1f \n",nota_recuperacao);
-}
+    }
 
 
     else {
