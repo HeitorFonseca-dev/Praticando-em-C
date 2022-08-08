@@ -5,16 +5,19 @@
 int main (){
 
 
-float n1,n2,n3,n4,exame,media,media2;
+float nota1,nota2,nota3,nota4,exame,media,nota_recuperacao;
+int peso_nota1 = 2;
+int peso_nota2 = 3;   
+int peso_nota3 = 4;
+int peso_nota4 = 1;
+    
+scanf ("%f", &nota1);
+scanf ("%f", &nota2);
+scanf ("%f", &nota3);
+scanf ("%f", &nota4);
 
 
-scanf ("%f", &n1);
-scanf ("%f", &n2);
-scanf ("%f", &n3);
-scanf ("%f", &n4);
-
-
-media = (((n1*2)+(n2*3)+(n3*4)+(n4*1)) / 10);
+media = (((nota1*peso_nota1)+(nota2*peso_nota2)+(nota3*peso_nota3)+(nota4*peso_nota4)) / 10);
 printf ("Media: %.1f \n",media);
 
 
@@ -29,14 +32,14 @@ else if(media < 5.0){
 
 else {
     printf ("Aluno em exame.\n");
-    scanf ("%f",&exame);
-    printf ("Nota do exame: %.1f\n",exame);
-    media2 = (exame + media)/2;
+    scanf ("%f",&exame_recuperacao);
+    printf ("Nota do exame: %.1f\n",exame_recuperacao));
+    nota_recuperacao = (exame_recuperacao) + media)/2;
 
-if (media2 > 5){
-    printf ("Aluno aprovado.\n");
-    printf ("Media final: %.1f \n",media2);
-    }
+    if (nota_recuperacao > 5){
+         printf ("Aluno aprovado.\n");
+         printf ("Media final: %.1f \n",nota_recuperacao);
+}
 
 
     else {
