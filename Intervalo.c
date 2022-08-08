@@ -4,19 +4,19 @@
 
 int main (){
 
-float a ;
+float valor_intervalo ;
 
 
-scanf ("%f",&a);
+scanf ("%f",&valor_intervalo);
 
 
-if (a >= 0 && a <= 25){
+if (valor_intervalo >= 0 && valor_intervalo <= 25){
     printf ("intervalo [0,25]\n");
 }
-else if (a > 25 && a <= 50)
+else if (valor_intervalo > 25 && valor_intervalo <= 50)
     printf("Intervalo (25,50]\n");
 
-else if (a >= 75 && a <= 100)
+else if (valor_intervalo >= 75 && valor_intervalo <= 100)
     printf ("Intervalo (75,100]\n");
 
 else{
